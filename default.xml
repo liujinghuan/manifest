@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest>
+    <remote name="anlory" 
+      fetch=".." 
+      review ="git@github.com:anlory/" />
+	<remote  name="github"
+	  fetch="https://github.com/liujinghuan/"
+	  review="https://android-review.googlesource.com/" />
+
+    <default remote="anlory" revision="master"/>
+    <project path="driver/Universal_GpioDrv" name="Universal_GpioDrv"/>
+    <project path="driver/sysfs_attr" name="sysfs_attr"/>
+    <project path="binder" name="anlory_binder"/>
+    <project path="config" name="linux_config"/>
+    <project path="farsight" name="farsight"/>
+    <project path="project" name="anlory_project"/>
+    <project path="manifest" name="manifest"/>
+    <project path="ledHidl" name="LedHidl"/>
+<!-- github Projects begin-->
+  <project path="private/emq-docs-cn.git" name="emq-docs-cn.git" remote="github" />
+<!-- github Projects end -->  
+</manifest>
